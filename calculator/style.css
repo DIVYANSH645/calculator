@@ -1,6 +1,6 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background: url("img.jpg");
+	background: rgb(237, 247, 250);
   
   background-size: 500px 1000px;
 }
@@ -29,7 +29,7 @@ body{
 	height: 20px;
 	margin: 0 20px;
 	padding-top: 20px;
-	font-size: 15px;
+	font-size: 10x;
 	color: #919191;
 }
 #output{
@@ -46,12 +46,14 @@ body{
 	width: 50px;
 	height: 50px;
 	margin: 15px;
+	
 	float: left;
-	border-radius: 30%;
-	border-width: 1;
+	border-radius: 10%;
+	border-width: 0;
 	font-weight: bold;
 	font-size: 25px;
 }
+
 
 .number {
 	background-color: #eaedef;
@@ -61,36 +63,42 @@ body{
 	cursor: pointer;
 }
 .operator:active, .number:active{
-	font-size: 13px;
+	font-size: 10px;
 }
 .operator:focus, .number:focus, .empty:focus{
 	outline: 0;
 }
 button:nth-child(1){
 	font-size: 30px;
-	background-color: #00f2ff;
+	background-color: red;
 }
 button:nth-child(2){
 	font-size: 25px;
-	background-color: #00f2ff;
+	background-color: red;
+}
+button:nth-child(3){
+	font-size: 40px;
+	background-color: #6e6b6b;
 }
 button:nth-child(4){
 	font-size: 40px;
-	background-color: #20b2aa;
+	background-color: #6e6b6b;
 }
 button:nth-child(8){
 	font-size: 40px;
-	background-color: #00f2ff
+	background-color: #6e6b6b
 }
 button:nth-child(12){
 	font-size: 40px;
-	background-color: #20b2aa;
+	background-color: #6e6b6b;
 }
 button:nth-child(16){
 	font-size: 40px;
-	background-color:#00f2ff;
+	background-color:#6e6b6b;
 }
-button:nth-child(20){
+button:nth-child(19){
 	font-size: 40px;
-	background-color: #20b2aa;
+	width: 130px;
+	
+  border-radius: 10%;
 }
